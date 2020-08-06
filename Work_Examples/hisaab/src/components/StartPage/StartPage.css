@@ -1,0 +1,74 @@
+:root {
+  --background_main: rgb(223, 223, 215);
+  --background_dark: rgb(42, 40, 40);
+  --background-icon-list: rgba(18, 19, 18, 0.787);
+}
+
+body {
+  font-size: 10px;
+}
+
+.wrapper {
+  font-family: "Satisfy", cursive;
+  height: 100vh;
+  width: 100vw;
+  background-color: var(--background_main);
+  position: relative;
+}
+
+.header {
+  height: 8%;
+  background-color: var(--background_dark);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header_text {
+  color: orange;
+  font-family: "Satisfy", cursive;
+  font-size: 2.5rem;
+  font-weight: 500;
+}
+
+.icon_list_wrapper {
+  background-color: var(--background-icon-list);
+  height: 20%;
+  display: flex;
+  align-items: center;
+  position: relative;
+  overflow-y: scroll;
+}
+
+.icon_wrapper {
+  height: 65%;
+  background-color: rgb(41, 39, 37);
+  position: relative;
+  min-width: 6rem;
+  margin-left: 2rem;
+  border-radius: 10%;
+  box-shadow: 0 0 0.7rem rgba(146, 145, 145, 0.479);
+  transition: 0.2s all;
+}
+
+.icon_wrapper:hover {
+  scale: 0.9;
+  box-shadow: 0 0 1rem rgba(216, 213, 213, 0.466);
+}
+
+.icon_wrapper > .icon {
+  border-radius: 10%;
+  height: 80%;
+  background-position: center;
+  background-size: contain;
+}
+
+.icon_label {
+  font-family: monospace;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 20%;
+  color: orange;
+  font-weight: bold;
+}
