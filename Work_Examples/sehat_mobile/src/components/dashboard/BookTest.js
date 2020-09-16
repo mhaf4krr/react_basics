@@ -79,6 +79,7 @@ export default class BookTest extends React.Component {
     this.setState({ AlrightDisabled: true });
 
     let appointmentData = {
+      NAME: this.props.user.FULL_NAME,
       PHONE: this.props.user.PHONE,
       SELECTED_LAB: this.state.selected_lab,
       SELECTED_DATE: this.state.selected_date,

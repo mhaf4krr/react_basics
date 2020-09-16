@@ -69,7 +69,7 @@ export default class Profiler extends Component {
 
     return (
       <div>
-        {generateApexLine()} <span> DETAILED D3 CHARTS </span>{" "}
+        {generateApexLine()}
         {/* {generateCharts()} */}
       </div>
     );

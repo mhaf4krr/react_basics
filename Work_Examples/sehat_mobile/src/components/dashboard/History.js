@@ -37,7 +37,7 @@ export default class History extends React.Component {
               <td>{entry.TEST_UID}</td>
               <td>{entry.TIMESTAMP}</td>
               <td>{test.LABEL}</td>
-              <td>104</td>
+              <td>{test.RESULT}</td>
             </tr>
           );
         });
